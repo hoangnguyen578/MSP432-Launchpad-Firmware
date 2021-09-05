@@ -8,7 +8,8 @@ Updating the Firmware Using xdsdfu instruction
 To program the firmware, follow these steps:
 1. Plug the XDS110 debug probe into your computer. Make sure that you only have one
 XDS110 class debug probe plugged in. The xdsdfu program will attempt to flash the first
-XDS110 debug probe it finds.2. Run the following two commands from directory with xdsdfu:
+XDS110 debug probe it finds.
+2. Run the following two commands from directory with xdsdfu:
 xdsdfu -m
 xdsdfu -f XDS_ORG.bin -r
 
